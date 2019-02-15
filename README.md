@@ -1,13 +1,32 @@
+# Freelancer
 
-## Desafio  Freelancer
-O desafio consiste em replicar o site **Freelancer** e o resultado obtido foi este: 
-![Freelancer Website](https://github.com/carinareketis/freelancer/blob/master/freelancer-pagina-final.png)
-## Processo de desenvolvimento
-* Criei uma página HTML com seções semânticas, utilizando tags apropriadas para representar essas seções.
-* A página HTML desenvolvida procura seguir as regras de identação, aninhamento e elementos em bloco e elementos inline.
-* Foi utilizado também os recursos de atributos como "class" entre outros.
-* No CSS explorei bastante a utilização do Flexbox e efeitos como o hover e action.
-## Considerações gerais para executar o projeto
+* **Track:** _Common Core_
+* **Curso:** _Criando um site interativo_
+* **Unidad:** _Layout da Web com HTML & CSS_
+
+***
+
+Para completar este desafio, criamos um repositório boilerplate (template inicial) com todos os recursos necessários. Isso inclui imagens, estrutura de pastas e arquivos onde você irá escrever seu código.
+
+## Fluxo de trabalho
+
+1. Faça um [**fork**](https://gist.github.com/ivandevp/1de47ae69a5e139a6622d78c882e1f74)
+   deste repositório.
+
+2. Em seguida você deverá **clonar** esse fork em seu computador. Lembre-se do comando `git clone` e de sua estrutura, que normalmente é essa:
+
+   ```bash
+   git clone https://github.com/<nome-de-usuario>/freelancer.git
+   ```
+
+## Objetivo
+
+O desafio consiste em replicar o site **Freelancer** e o resultado desejado é este:
+
+![Freelancer Website](docs/fullpage.png)
+
+## Considerações
+
 * Encontrará um arquivo-base `index.html` no qual deverá escrever a estrutura de seu projeto e linkar seus arquivos de estilo(CSS).
 * Na pasta `css` terá um arquivo-base `main.css` onde você irá adicionar os estilos necessários em seu projeto.
 * Dentro da pasta `assets` se encontra a pasta `images` onde estão todas as imagens necessárias para completar seu projeto.
