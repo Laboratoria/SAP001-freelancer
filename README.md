@@ -1,9 +1,8 @@
 
 ## Desafio  Freelancer
 O desafio consiste em replicar o site **Freelancer** e o  o resultado obtido:
-![Freelancer Website](docs/freelancer-pagina-final)
-
-## Considerações gerias para execução do projeto
+![https://github.com/carinareketis/freelancer/blob/master/freelancer-pagina-final.png]
+## Considerções gerias para execução do projeto
 * Encontrará um arquivo-base `index.html` no qual deverá escrever a estrutura de seu projeto e linkar seus arquivos de estilo(CSS).
 * Na pasta `css` terá um arquivo-base `main.css` onde você irá adicionar os estilos necessários em seu projeto.
 * Dentro da pasta `assets` se encontra a pasta `images` onde estão todas as imagens necessárias para completar seu projeto.
