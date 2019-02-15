@@ -1,3 +1,282 @@
-/*
- * Estilos de tu proyecto
- */
+body {
+    margin:0;
+}
+
+.ulnav {
+    list-style-type: none;   /* retira o símbolo da bolinha que marca um item da lista exemplo: ". item 1; . item 2;"  */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;    /* parecido com background-color, dá cor ao fundo */
+    background-color: #2c3e50;
+}
+  
+.linav {
+    float: right;  /* alinha as li á direita */
+}
+
+.linavmarginleft {
+    margin-left: 600px;
+}
+
+.linavmarginright {
+    margin-right: 600px;
+}
+
+.linavfont {
+    font-weight: 400; /* deixa o texto meio bold, negrito */
+    font-family: 'Montserrat';
+    text-align: center;
+    font-size: 50%;
+    padding: 0px;
+}
+  
+.linav a {
+    display: block;
+    color: white;
+    font-weight: 700; /* deixa o texto meio bold, negrito */
+    font-family: 'Montserrat';
+    font-size: 200%;
+    text-align: center;
+    padding: 32px 25px;
+    margin: 0;
+    text-decoration: none; /* retira o sublinhado do texto */
+}
+  
+.linav a:hover:not(.active) {
+    color: #18bc9c;
+}
+
+.banner {
+    background-color: #18bc9c;
+    padding-top: 100px;
+    color: white;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    text-align: center;
+    padding: 70px;
+}
+
+.h1banner {
+    font-size: 480%;
+    margin: 20px;
+}
+
+.starbanner {
+    width: 11%;
+    margin: 0;
+}
+
+.h3banner {
+    font-weight: 400;
+    font-family: 'Montserrat';
+    font-size: 155%;
+    margin: 20px;
+}
+
+.sectionportfolio {
+    background-color: white;
+    padding-top: 100px;
+    color: #2c3e50;
+    font-family: 'Montserrat';
+    text-align: center;
+    padding: 60px;
+}
+
+.h2portfolio {
+    font-weight: 700;
+    font-family: 'Montserrat';
+    font-size: 290%;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.starportfolio {
+    width: 11%;
+    margin-bottom: 0;
+}
+
+.flex-container {
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap; 
+    margin-left: 400px;
+    margin-right: 400px;
+  }
+
+.flex-container > img {
+    width: 30%;
+    height: 30%;
+    margin-bottom: 35px;
+    margin-top: 0;
+}
+
+.p-about {
+    color: white;
+    margin: 20px;
+}
+
+.sectionabout {
+    text-align: center;
+    background-color: #18bc9c;
+    padding: 20px;
+    margin-top: 90px;
+    margin-bottom: 0;
+}
+
+.sectionabout2 {
+    display: flex;
+    justify-content:space-evenly;
+    margin-left: 650px;
+    margin-right: 650px;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #18bc9c;
+}
+
+.about-colun {
+    font-family: 'Lato';
+    text-align: left;
+    font-size: 23px;
+    line-height: 1.5;
+    color: white; 
+    padding: 30px;
+    background-color: #18bc9c; 
+}
+
+.sectionaboutcolor {
+    background-color: #18bc9c;
+}
+
+.sectionbutton {
+    text-align: center; 
+}
+
+.btndownload  {
+    width: 12%;
+    height: 80px;
+    padding: 10px;
+    background-color: #18bc9c; 
+    border: 3px solid white;
+    color: white;
+    text-decoration: none;
+    font-family: 'Lato';
+    font-size: 20px;
+    border-radius: 5px;
+    margin-bottom: 90px;
+}
+
+.btndownload:hover {
+    background-color: white;
+    color:#2c3e50;
+    border: 0;
+}
+
+.fundo branco{
+    text-align: center;
+    margin: 0;
+}
+ 
+.formcontact {
+    margin-left: 670px;
+    margin-right: 670px;
+    text-align: left;
+    width: 35%;
+    height: 80px;
+    color:  #2c3e50;
+    font-family: 'Lato';
+    font-size:130%;
+    margin left: 20%;
+    border: none;
+    border-bottom: 1px solid #2c3e50;
+}
+
+.inputfocus:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+.textareasize {
+    height: 150px;
+    margin-bottom: 90px;
+    resize: none;
+}
+
+.btnsend {
+    margin-left: 670px;
+    width: 5%;
+    height: 70px;
+}
+
+.btnsend:hover {
+    background-color:#058A6B;
+    color: white;
+    border: 0;
+}
+
+.fundo-escuro {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2c3e50;
+    color: white;
+    font-family:'Lato';
+    font-size: 180%;
+    font-weight: 400;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-bottom: 0;
+
+
+}
+
+.btnsocialmedia {
+    background-color: #2c3e50;
+    border: 3px solid white;
+    color: white;
+    width: 60px;
+    height: 60px;
+    font-size: 80%;
+    border-radius: 50%;
+}
+
+.btnsocialmedia:hover {
+    background-color:white;
+    color: #2c3e50;
+    border: 0;
+}
+
+.btnsocialmedia:active {
+    background-color:#2c3e50;
+    color: #18bc9c;
+    border: 3px solid white;
+}
+
+.txthref {
+    color: #18bc9c;
+    text-decoration: none;   
+}
+.txthref:hover {
+    color: #18bc9c;
+    text-decoration: underline;   
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #1a252f;
+    height: 150px;
+    margin: 0;
+    color: white;
+    font-family:'Lato';
+    font-size: 120%;
+    
+}
+
+
+
+
