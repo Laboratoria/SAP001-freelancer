@@ -1,8 +1,14 @@
 
 ## Desafio  Freelancer
-O desafio consiste em replicar o site **Freelancer** e o resultado obtido foi este:
-(https://github.com/carinareketis/freelancer/blob/master/freelancer-pagina-final.png)
-## Considerções gerias para execução do projeto
+O desafio consiste em replicar o site **Freelancer** e o resultado obtido foi este: 
+![Freelancer Website](https://github.com/carinareketis/freelancer/blob/master/freelancer-pagina-final.png)
+## Process de desenvolvimento
+
+* Criei uma página HTML com seções semânticas, utilizando tags apropriadas para representar essas seções.
+* A página HTML desenvolvida procura seguir as regras de identação, aninhamento e elementos em bloco e elementos inline.
+* Foi utilizado também os recursos de atributos como "class" entre outros.
+* No CSS explorei bastante a utilização do Flexbox e efeitos como o hover e action.
+## Considerações gerais para executar o projeto
 * Encontrará um arquivo-base `index.html` no qual deverá escrever a estrutura de seu projeto e linkar seus arquivos de estilo(CSS).
 * Na pasta `css` terá um arquivo-base `main.css` onde você irá adicionar os estilos necessários em seu projeto.
 * Dentro da pasta `assets` se encontra a pasta `images` onde estão todas as imagens necessárias para completar seu projeto.
