@@ -2,8 +2,7 @@
 ## Desafio  Freelancer
 O desafio consiste em replicar o site **Freelancer** e o resultado obtido foi este: 
 ![Freelancer Website](https://github.com/carinareketis/freelancer/blob/master/freelancer-pagina-final.png)
-## Process de desenvolvimento
-
+## Processo de desenvolvimento
 * Criei uma página HTML com seções semânticas, utilizando tags apropriadas para representar essas seções.
 * A página HTML desenvolvida procura seguir as regras de identação, aninhamento e elementos em bloco e elementos inline.
 * Foi utilizado também os recursos de atributos como "class" entre outros.
